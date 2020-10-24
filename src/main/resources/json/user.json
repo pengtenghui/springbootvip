@@ -1,0 +1,20 @@
+{
+  "enjoyUser": {
+    "_all": {
+      "enabled": true
+    },
+    "properties": {
+      "id": {
+        "type": "text"
+      },
+      "passwd": {
+        "type": "text"
+      },
+      "username": {
+        "type": "text",
+        "index": "true",
+        "analyzer": "ikSearchAnalyzer"
+      }
+    }
+  }
+}
