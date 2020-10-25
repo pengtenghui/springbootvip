@@ -1,6 +1,6 @@
 package cn.enjoy;
 
 public class Test {
-    // 主键
+    // 主键88
     private Long id;
 }
